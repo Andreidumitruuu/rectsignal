@@ -1,0 +1,9 @@
+F = 21khz 0.0625 SET R2
+F = 7khz  0.2575 SET R2     
+ 
+
+AVVmin = 0.22V  1      SET R10    
+AVVmax= 1.4V   0.165  SET R10
+
+
+

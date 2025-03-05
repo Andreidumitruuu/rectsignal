@@ -1,0 +1,19 @@
+\t (00:00:34) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:34)     Journal start - Sun Dec 15 17:53:50 2024
+\t (00:00:34)         Host=DUMITRU User=dumit Pid=25952 CPUs=12
+\t (00:00:34) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:34) 
+\d (00:00:34) Design opened: C:/Users/dumit/Desktop/P1_2024_433E_Dumitru_Alexandru-Andrei_GSD_N7_OrCAD (2)/P1_2024_433E_Dumitru_Alexandru-Andrei_GSD_N7_OrCAD/Layout/Layout.brd
+\i (00:00:35) generaledit 
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in -11.4676 38.1927
+\t (00:00:36) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:36) trapsize 5783
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in -11.4676 38.1927
+\t (00:00:36) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:36) trapsize 2892
+\i (00:00:41) exit 
+\t (00:00:42)     Journal end - Sun Dec 15 17:53:57 2024

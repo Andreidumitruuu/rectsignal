@@ -1,0 +1,23 @@
+** Profile: "SCHEMATIC1-sim"  [ C:\Users\dumit\Desktop\P1_2024_433E_Dumitru_Alexandru-Andrei_GSD_N7_OrCAD (1)\P1_2024_433E_Dumitru_Alexandru-Andrei_GSD_N7_OrCAD\Schematics\nr7_osc_dreptunghiular-pspicefiles\schematic1\sim.sim ] 
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+* From [PSPICE NETLIST] section of C:\Users\dumit\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 10u SKIPBP 
+.TEMP 0 25 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

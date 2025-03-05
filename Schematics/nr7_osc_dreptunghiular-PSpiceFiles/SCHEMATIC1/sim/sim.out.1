@@ -1,0 +1,77 @@
+
+**** 12/01/24 11:12:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\dumit\Desktop\P1_2024_433E_Dumitru_Alexandru-Andrei_GSD_N7_OrCAD (1)\P1_2024_433E_Dumitru_A
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+* From [PSPICE NETLIST] section of C:\Users\dumit\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 10u SKIPBP 
+.TEMP 0 25 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NR7_OSC_DREPTUNGHIULAR
+R_R12         0 N62123  1k TC=0,0 
+R_R15         N62167 0  1k TC=0,0 
+R_R14         N62167 0  1k TC=0,0 
+R_R13         0 N62123  1k TC=0,0 
+C_C2         N64078 N64096  4.7p  TC=0,0 
+R_R9         N63582 GND  6.8k TC=0,0 
+Q_Q5         N61995 N64078 N63672 QBC846B 
+X_U4         N66767 N62017 1N4148 
+Q_Q7         N62017 N63622 N63672 QBC856B 
+Q_Q1         N64096 N63788 N63626 QBC846B 
+X_R2         N63896 N63896 N63672 POT PARAMS: SET=0.2575 VALUE=10k
+R_R4         N64096 N61995  680 TC=0,0 
+Q_Q2         N64100 N63800 N63626 QBC846B 
+R_R3         N64100 N61995  680 TC=0,0 
+Q_Q4         N63622 N63582 N63510 QBC846B 
+X_U3         N63582 N66767 1N4148 
+C_C1         N63800 GND  22n  TC=0,0 
+R_R8         N67940 N62017  330 TC=0,0 
+Q_Q6         N64078 N64096 N61995 QBC856B 
+R_R1         N63800 N63896  330 TC=0,0 
+R_R7         N62017 N63510  330 TC=0,0 
+Q_Q3         N63626 N63582 N67940 QBC846B 
+X_R10         N63672 N63672 N86216 POT PARAMS: SET=0.165 VALUE=500k
+R_R6         GND N63788  10k TC=0,0 
+R_R5         N63788 N63672  10k TC=0,0 
+X_U8         N64078 N73487 1N4148 
+X_U7         N73487 N63622 1N4148 
+X_D1         N62017 N62167 PARAMS:              
+X_D2         N62123 N61995 PARAMS:              
+R_RL1         N86220 N86216  4.7k TC=0,0 
+R_RL2         N86224 N86220  2.2k TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+
+ERROR(ORPSIM-15108): Subcircuit N62167 used by X_D1 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit N61995 used by X_D2 is undefined
+
